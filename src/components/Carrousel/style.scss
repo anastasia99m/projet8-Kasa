@@ -1,0 +1,42 @@
+ .container-carrousel{
+    .slick-next{
+       background-color: transparent;
+        position: absolute;
+        left: 90%;
+        
+    }
+    .slick-prev{
+       background-color: transparent;
+       position: absolute;
+       left: 2%;
+       z-index: 1;
+       
+       
+    }
+    .slick-prev:before, .slick-next:before{
+        opacity: 1;
+        background-color: transparent;
+        font-size: 75px;
+    }
+    .currentSlide{
+        position: relative;
+        color: white;
+        top: -60px;
+        font-size: large;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+    h2{
+        font-size: 36px;
+        font-weight: 500;
+        color: #FF6060;
+        margin: 0;
+        line-height: 50px;
+    }
+    p{
+        margin: 0;
+        size: 18px;
+        line-height: 26px;
+    }
+}
